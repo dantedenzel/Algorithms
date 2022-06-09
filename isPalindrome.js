@@ -27,6 +27,7 @@
      */
 function isPalindrome(str) {
     for (var x = 0; x < str.length / 2; x++) {
+        // x = 0; x < 3/2 
         if (str[x] !== str[str.length-1-x]) {
             return false;
         }
